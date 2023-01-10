@@ -75,6 +75,7 @@ if __name__ == '__main__':
 # vncserver
 #PORT 5901
 
+# chmod -R a+rwX /var/www/html/tasks
 
 
         # vncserver -kill :1
