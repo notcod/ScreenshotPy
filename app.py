@@ -7,8 +7,7 @@ import os
 import hashlib
 import validators
 
-location = "/var/www/html/"
-location = ""
+location = os.getcwd() + "/"
 
 app = Flask(__name__)
 
@@ -60,12 +59,14 @@ def getScreenshot():
     tasks = os.listdir(location + "tasks")
 
     for task in tasks:
-        file = open(location + "tasks/" + task, "r")
-        domain = file.read()
-        if domain != '':
-            screenshot(domain, task)
-        os.remove(location + "tasks/"+ task)
+        if '.' not in task:
+            file = open(location + "tasks/" + task, "r")
+            domain = file.read()
+            if domain != '':
+                screenshot(domain, task)
+            os.remove(location + "tasks/"+ task)
 
 if __name__ == '__main__':
     app.run()
+
 
