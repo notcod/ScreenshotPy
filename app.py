@@ -71,7 +71,7 @@ if __name__ == '__main__':
 
 
 
-# sudo apt install xfce4 xfce4-goodies tightvncserver dbus-x11 python3 python3-pip firefox-esr apache2
+# sudo apt install xfce4 xfce4-goodies tightvncserver dbus-x11 python3 python3-pip firefox-esr apache2 libapache2-mod-wsgi-py3
 # vncserver
 #PORT 5901
 
