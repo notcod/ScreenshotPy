@@ -70,15 +70,12 @@ if __name__ == '__main__':
     app.run()
 
 
-# sudo apt install xfce4 xfce4-goodies
-# sudo apt install tightvncserver 
-# sudo apt install dbus-x11
 
 # sudo apt install xfce4 xfce4-goodies tightvncserver dbus-x11 python3 python3-pip firefox-esr apache2
-
-
 # vncserver
 #PORT 5901
+
+
 
         # vncserver -kill :1
         # mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
