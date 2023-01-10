@@ -2,6 +2,9 @@
 
 # sudo apt install xfce4 xfce4-goodies tightvncserver dbus-x11 python3 python3-pip firefox-esr apache2 libapache2-mod-wsgi-py3
 # vncserver
+
+# chmod +x /var/www/html/cron.sh
+
 #PORT 5901
 # nohup /var/www/html/cron.sh &>/dev/null &
 # chmod -R a+rwX /var/www/html/tasks
